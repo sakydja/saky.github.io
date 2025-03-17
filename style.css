@@ -133,10 +133,43 @@
 
 .title {
   display: flex;
+  justify-content: center;
   padding: 0px 10px;
-  font-size: 14px;
+  font-size: 46px;
+  color: #1a3066;
 }
 
 .h2 {
-  font-size: 46px;
+  margin: 0px 0px 50px;
+  max-width: 650px;
+}
+
+.servic-card {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-color: white;
+  height: 100%;
+  font-size: 14px;
+  justify-content: center;
+  padding: 60px 14px;
+  align-items: center;
+  border-radius: 15px;
+  box-shadow: 14px 14px 200px rgba(0, 22, 50, 0.06);
+}
+
+.servic-card img {
+  margin: 0px 0px 25px;
+}
+
+.paragraph-2 {
+  color: #1a3066;
+  font-size: 24px;
+  margin: 0px 0px 5px;
+}
+
+.paragraph-2-pr {
+  color: #546681;
+  font-size: 17px;
+  margin: 0px 0px 10px;
 }
